@@ -1,5 +1,6 @@
 import React from "react";
 import { Header } from "../header/Header";
+import Link from "next/link";
 
 export const Setup = () => {
   return (
@@ -8,22 +9,22 @@ export const Setup = () => {
       <div className="flex gap-24 ml-12 mt-10 justify-between">
         <div className=" border border-[#415C5C] w-[834px] flex  h-11 items-center rounded-lg">
           <button className="w-[132px] h-11 rounded-lg bg-[#27393C] ">
-            <a href="/"> Setup</a>
+            <Link href="/"> Setup</Link>
           </button>
           <button className="w-[132px] h-11 rounded-lg">
-            <a href="/userDetails"> User details</a>
+            <Link href="/userDetails"> User details</Link>
           </button>
           <button className="w-[132px] h-11 rounded-lg">
-            <a href="/tasks"> Tasks</a>
+            <Link href="/tasks"> Tasks</Link>
           </button>
           <button className="w-[132px] h-11 rounded-lg">
-            <a href="prizes"> Prizes</a>
+            <Link href="prizes"> Prizes</Link>
           </button>
           <button className="w-[132px] h-11 rounded-lg">
-            <a href=""> Assets</a>
+            <Link href=""> Assets</Link>
           </button>
           <button className="w-[132px] h-11 rounded-lg">
-            <a href=""> Post entry</a>
+            <Link href=""> Post entry</Link>
           </button>
         </div>
 

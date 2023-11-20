@@ -10,22 +10,22 @@ export const Tasks = () => {
       <div className="flex gap-24 ml-12 mt-10 justify-between">
         <div className=" border border-[#415C5C] w-[834px] flex  h-11 items-center rounded-lg">
           <button className="w-[132px] h-11 rounded-lg  ">
-            <a href="/"> Setup</a>
+            <Link href="/"> Setup</Link>
           </button>
           <button className="w-[132px] h-11 rounded-lg ">
             <Link href="/userDetails"> User details</Link>
           </button>
           <button className="w-[132px] h-11 rounded-lg bg-[#27393C]">
-            <a href="tasks"> Tasks</a>
+            <Link href="tasks"> Tasks</Link>
           </button>
           <button className="w-[132px] h-11 rounded-lg">
-            <a href="prizes"> Prizes</a>
+            <Link href="prizes"> Prizes</Link>
           </button>
           <button className="w-[132px] h-11 rounded-lg">
-            <a href="assets"> Assets</a>
+            <Link href="assets"> Assets</Link>
           </button>
           <button className="w-[132px] h-11 rounded-lg">
-            <a href=""> Post entry</a>
+            <Link href=""> Post entry</Link>
           </button>
         </div>
 
