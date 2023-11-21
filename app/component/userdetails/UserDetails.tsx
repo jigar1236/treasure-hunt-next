@@ -11,7 +11,7 @@ export const UserDetails = () => {
           <button className="w-[132px] h-11 rounded-lg  ">
             <Link href="/"> Setup</Link>
           </button>
-          <button className="w-[132px] h-11 rounded-lg bg-[#27393C]">
+          <button className="w-[132px] h-10 rounded-lr bg-[#27393C]">
             <Link href="userDetails"> User details</Link>
           </button>
           <button className="w-[132px] h-11 rounded-lg">
@@ -22,7 +22,7 @@ export const UserDetails = () => {
           </button>
           <button className="w-[132px] h-11 rounded-lg">
             <Link href="assets"> Assets</Link>
-          </button>
+          </button>               
           <button className="w-[132px] h-11 rounded-lg">
             <Link href=""> Post entry</Link>
           </button>
@@ -42,7 +42,7 @@ export const UserDetails = () => {
       <div className="flex mt-10">
         <div className="w-[552px] h-[170px] border border-[#415C5C] rounded-2xl  ml-12 ">
           <div className="mt-4 ml-8">
-            <p className="text-[24px] leading-[29.52px]">
+            <p className="text-[24px] leading-[29.52px] font-medium">
               Minimum age (Optional)
             </p>
             <input
@@ -53,7 +53,7 @@ export const UserDetails = () => {
           </div>
           <div className="mt-4 ml-8 flex gap-1 ">
             <input type="checkbox" />
-            <p className="text-[16px] leading-[19.68px] ">
+            <p className="text-[16px] font-medium leading-[19.68px] ">
               Require login before actions
             </p>
           </div>
@@ -61,7 +61,7 @@ export const UserDetails = () => {
 
         <div className="w-[636px] h-[170px] border border-[#415C5C] rounded-2xl ml-12">
           <div className="ml-8 mt-4">
-            <p className="text-[24px] leading-[29.52px]">
+            <p className="text-[24px] leading-[29.52px]c font-medium">
               Select required fields
             </p>
           </div>
@@ -105,7 +105,7 @@ export const UserDetails = () => {
       {/* secondline card */}
       <div className="flex mt-10">
         <div className="w-[552px] h-[170px] border border-[#415C5C] rounded-2xl ml-12">
-          <p className="text-[24px] leading-[29.52px] mt-4 ml-8 ">
+          <p className="text-[24px] font-medium leading-[29.52px] mt-4 ml-8 ">
             {" "}
             Users login options
           </p>
@@ -118,7 +118,7 @@ export const UserDetails = () => {
             </div>
             <div className="flex gap-2">
               <input type="checkbox" />
-              <p className="text-[16px] leading-[19.68px]">With Twitter</p>
+              <p className="text-[16px] font-medium leading-[19.68px]">With Twitter</p>
             </div>
           </div>
         </div>

@@ -13,7 +13,7 @@ export const AddPrizes = ({ show }: Props) => {
               <div className="mt-12 ml-12">
                 <div className="grid">
                   <label
-                    className="text-[18px] leading-[22.14px]"
+                    className="text-[18px] font-medium leading-[22.14px]"
                     htmlFor="Prize name"
                   >
                     Prize name
@@ -26,7 +26,7 @@ export const AddPrizes = ({ show }: Props) => {
                 </div>
                 <div className="grid mt-8">
                   <label
-                    className="text-[18px] leading-[22.14px]"
+                    className="text-[18px] font-medium leading-[22.14px]"
                     htmlFor="Prize name"
                   >
                     How manywinners will win the prize
@@ -39,7 +39,7 @@ export const AddPrizes = ({ show }: Props) => {
                 </div>
                 <div className="grid mt-8">
                   <label
-                    className="text-[18px] leading-[22.14px]"
+                    className="text-[18px] leading-[22.14px] font-medium"
                     htmlFor="Prize name"
                   >
                     Prize value in USD per winner
@@ -52,7 +52,7 @@ export const AddPrizes = ({ show }: Props) => {
                 </div>
                 <div className="grid mt-8">
                   <label
-                    className="text-[18px] leading-[22.14px]"
+                    className="text-[18px] leading-[22.14px] font-medium"
                     htmlFor="Prize name"
                   >
                     Treasury hunt difficulty level

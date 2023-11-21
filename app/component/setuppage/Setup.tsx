@@ -8,7 +8,7 @@ export const Setup = () => {
       <Header />
       <div className="flex gap-24 ml-12 mt-10 justify-between">
         <div className=" border border-[#415C5C] w-[834px] flex  h-11 items-center rounded-lg">
-          <button className="w-[132px] h-11 rounded-lg bg-[#27393C] ">
+          <button className="w-[132px] h-10 rounded-lg bg-[#27393C] ">
             <Link href="/"> Setup</Link>
           </button>
           <button className="w-[132px] h-11 rounded-lg">
@@ -21,7 +21,7 @@ export const Setup = () => {
             <Link href="prizes"> Prizes</Link>
           </button>
           <button className="w-[132px] h-11 rounded-lg">
-            <Link href=""> Assets</Link>
+            <Link href="assets"> Assets</Link>
           </button>
           <button className="w-[132px] h-11 rounded-lg">
             <Link href=""> Post entry</Link>
@@ -40,7 +40,7 @@ export const Setup = () => {
 
       <div className="flex  gap-9 items-center mt-10">
         <div className="grid ml-12 ">
-          <label className="text-[18px] leading-[22.14px]	" htmlFor="tittle">
+          <label className="text-[18px] font-medium leading-[22.14px]	" htmlFor="tittle">
             Treasure hunt title
           </label>
           <input
@@ -49,7 +49,7 @@ export const Setup = () => {
           />
         </div>
         <div className="grid">
-          <label className="text-[18px] leading-[22.14px]" htmlFor="start">
+          <label className="text-[18px] font-medium leading-[22.14px]" htmlFor="start">
             {" "}
             Start
           </label>
@@ -60,7 +60,7 @@ export const Setup = () => {
         </div>
 
         <div className="grid">
-          <label className="text-[18px] leading-[22.14px]" htmlFor="end">
+          <label className="text-[18px] font-medium leading-[22.14px]" htmlFor="end">
             {" "}
             End
           </label>
@@ -70,7 +70,7 @@ export const Setup = () => {
           />
         </div>
         <div className="grid">
-          <label className="text-[18px] leading-[22.14px]" htmlFor="timezone">
+          <label className="text-[18px] font-medium leading-[22.14px]" htmlFor="timezone">
             {" "}
             Timezone
           </label>
@@ -86,14 +86,14 @@ export const Setup = () => {
       <div className="border border-[#415C5C] rounded-2xl w-[911px] h-[217px] p-3 ml-12 mt-10">
         <div className="flex gap-2 mt-4 ml-8">
           <img src="assets/image/termicon.svg" alt="#" />
-          <p className="text-2xl">Terms and conditions</p>
+          <p className="text-2xl font-medium leading-[29.52px]">Terms and conditions</p>
         </div>
 
         <div className="mt-6 ml-8">
-          <p className="text-sm">
+          <p className="text-sm font-normal">
             CryptoGrowth automatically generates Terms & Conditions for you.
           </p>
-          <p className="text-sm">
+          <p className="text-sm font-normal">
             Click Edit Fields to customise your details or add your own fully
             custom Terms & Conditions below.
           </p>

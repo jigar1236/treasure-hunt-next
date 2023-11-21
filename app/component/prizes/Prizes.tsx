@@ -21,7 +21,7 @@ export const Prizes = () => {
           <button className="w-[132px] h-11 rounded-lg ">
             <Link href="tasks"> Tasks</Link>
           </button>
-          <button className="w-[132px] h-11 rounded-lg bg-[#27393C]">
+          <button className="w-[132px] h-10 rounded-lr bg-[#27393C]">
             <Link href="prizes"> Prizes</Link>
           </button>
           <button className="w-[132px] h-11 rounded-lg">
@@ -45,7 +45,7 @@ export const Prizes = () => {
       {/* Add prizes section */}
 
       <div className="mt-10 ml-12">
-        <p className="text-[24px] leading-[29.52px]">Prizes</p>
+        <p className="text-[24px] font-medium leading-[29.52px]">Prizes</p>
       </div>
 
       <div className="ml-12 mt-6">

@@ -5,7 +5,7 @@ export const Header = () => {
     <>
       <div className="flex justify-between items-center mt-10 mr-[5%]">
         <div>
-          <p className="text-4xl  ml-12 ">Create your treasure hunt</p>
+          <p className="text-4xl  font-medium ml-12 ">Create your treasure hunt</p>
         </div>
         <div className="flex justify-end gap-10 ">
           <div className="relative inline-block">

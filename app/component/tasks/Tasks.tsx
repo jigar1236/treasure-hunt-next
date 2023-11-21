@@ -15,7 +15,7 @@ export const Tasks = () => {
           <button className="w-[132px] h-11 rounded-lg ">
             <Link href="/userDetails"> User details</Link>
           </button>
-          <button className="w-[132px] h-11 rounded-lg bg-[#27393C]">
+          <button className="w-[132px] h-10 rounded-lr bg-[#27393C]">
             <Link href="tasks"> Tasks</Link>
           </button>
           <button className="w-[132px] h-11 rounded-lg">
